@@ -1,4 +1,4 @@
-# claude-tools
+# skills-tools
 
 Herramientas personales para agentes de código. El repo es un **marketplace de plugins de Claude Code**; los skills siguen el formato estándar `SKILL.md`, así que otros agentes compatibles también pueden usarlos.
 
@@ -13,14 +13,14 @@ Herramientas personales para agentes de código. El repo es un **marketplace de 
 Desde GitHub (en cualquier laptop):
 
 ```bash
-claude plugin marketplace add CarlosLeones/claude-tools
+claude plugin marketplace add CarlosLeones/skills-tools
 claude plugin install mi-git-mng@leones-tools
 ```
 
 Desde una copia local del repo:
 
 ```bash
-claude plugin marketplace add /ruta/a/claude-tools
+claude plugin marketplace add /ruta/a/skills-tools
 claude plugin install mi-git-mng@leones-tools
 ```
 
