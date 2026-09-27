@@ -108,6 +108,8 @@ Es de solo lectura, nunca copia valores sensibles y no hace commit de los inform
 - Scripts cortos y legibles: quien instala un plugin ejecuta su código.
 - Los `.sh` se guardan con finales LF (`.gitattributes`), para que funcionen en macOS y Linux.
 
+> Opcional: `git config core.hooksPath .githooks` activa un aviso que evita hacer commits con un correo personal en lugar del *noreply* de GitHub.
+
 ## Licencia
 
 [MIT](LICENSE)

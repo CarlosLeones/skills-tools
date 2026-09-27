@@ -1,0 +1,19 @@
+#!/bin/sh
+# Repo publico: los commits deben usar el correo noreply de GitHub, no un correo personal.
+# Se activa una vez por clon con:  git config core.hooksPath .githooks
+
+email=$(git var GIT_AUTHOR_IDENT | sed -n 's/.*<\(.*\)>.*/\1/p')
+
+case "$email" in
+  *@users.noreply.github.com) exit 0 ;;
+esac
+
+cat >&2 <<EOF
+ERROR: este repo es publico y el commit usaria el correo '$email'.
+Usa tu correo noreply de GitHub (GitHub > Settings > Emails), solo para este repo:
+
+  git config user.email "<id>+<usuario>@users.noreply.github.com"
+
+Luego repite el commit.
+EOF
+exit 1
