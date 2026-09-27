@@ -1,0 +1,18 @@
+{
+  "name": "leones-tools",
+  "owner": {
+    "name": "Carlos Leones",
+    "url": "https://github.com/CarlosLeones"
+  },
+  "metadata": {
+    "description": "Herramientas personales para agentes de código (Claude Code y compatibles)."
+  },
+  "plugins": [
+    {
+      "name": "mi-git-mng",
+      "source": "./plugins/mi-git-mng",
+      "description": "Mi Git Manager: acceso de GitHub CLI (gh) por repo o global, y view_actions para analizar y documentar GitHub Actions con diagramas.",
+      "version": "1.1.0"
+    }
+  ]
+}

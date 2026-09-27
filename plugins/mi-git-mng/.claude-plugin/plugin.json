@@ -1,0 +1,23 @@
+{
+  "name": "mi-git-mng",
+  "version": "1.1.0",
+  "description": "Mi Git Manager: acceso de GitHub CLI (gh) por repo o global, y view_actions para analizar y documentar GitHub Actions con diagramas.",
+  "author": {
+    "name": "Carlos Leones",
+    "url": "https://github.com/CarlosLeones"
+  },
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "github",
+    "gh",
+    "permisos",
+    "seguridad",
+    "github-actions",
+    "ci-cd",
+    "mermaid",
+    "documentacion"
+  ],
+  "homepage": "https://github.com/CarlosLeones/claude-tools",
+  "repository": "https://github.com/CarlosLeones/claude-tools"
+}
